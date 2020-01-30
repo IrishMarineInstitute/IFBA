@@ -117,30 +117,3 @@ The Archive Location content type is a secondary content type in the Data Catalo
 | Description | field_description | No | 1 | | 
 | Type | field_type | Controlled List | Yes | 1 | e.g. Main collection, personal, seperate collection | 
 | Parent Unit | field_parent_unit | string | Yes | 1 | e.g. drawer box is in, self links to Archive ID | 
-
-## Image
-
-- Machine name: *Image*
-
-The Container content type is a secondary content type in the Data Catalogue(Newport Archives). It represents a group of samples and how they are physically held in reality.
-
-
-| Label | Machine Name | Field Type | Required Field | Allowed Number of Values | Notes
-| --- | --- | --- | --- | --- | --- |
-| Container ID |  field_container_id | String | Yes | Unlimited | Primary key ## Sample
-
-
-1. [Image](#image)
-   1. Image ID
-   1. Parent ID
-   1. Parent Image ID
-   1. Subsample Location
-   1. Image
-   1. Description
-   1. Date Image Captured
-   1. Destroyed for Analysis
-   1. Potential Uses
-   1. Server Location of Master
-   1. Dataset ID
-
-
